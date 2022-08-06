@@ -8,8 +8,6 @@ import org.json.simple.parser.ParseException;
 import org.testng.annotations.DataProvider;
 
 public class DataClass {
-  static Object[][] testObjArray;
-
   private static String jsonFile = PropertyManager.getInstance().getProperty("JSONStudentsFile");
 
   @DataProvider(name="StudentsJSONData")

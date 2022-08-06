@@ -2,19 +2,13 @@ package com.ti.testcases;
 
 import static com.ti.framework.config.Constants.VIDEO_FOLDER;
 
-import com.ti.framework.base.BasePage;
 import com.ti.framework.base.BrowserType;
 import com.ti.framework.base.DriverFactory;
 import com.ti.framework.config.PropertyManager;
 import com.ti.framework.utils.logs.Log;
-import com.ti.framework.utils.video.SpecializedScreenRecorder;
 import com.ti.framework.utils.video.VideoRecorder;
 import com.ti.library.TestLibrary;
 import com.ti.pages.StudentsPage;
-import java.awt.AWTException;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;

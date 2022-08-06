@@ -2,8 +2,6 @@ package com.ti.framework.utils.data;
 
 import static com.ti.framework.config.Constants.DATA_FOLDER;
 
-import com.ti.framework.config.PropertyManager;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import org.json.simple.JSONArray;
